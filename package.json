@@ -1,0 +1,20 @@
+{
+  "name": "nemateria-aws-lambda",
+  "version": "0.1.0",
+  "description": "Lire les données dynamoDB et S3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "aws"
+  ],
+  "author": "exlineo",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.19.0",
+    "@aws-sdk/client-s3": "^3.19.0"
+  }
+}
